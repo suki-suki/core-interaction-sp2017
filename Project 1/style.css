@@ -1,0 +1,40 @@
+h1 {color: rgba(0, 75, 0, 0.7);
+    font-family: "Futura", "Helvetica",sans-serif;
+}
+@font-face {
+  src:url("Quicksand_Book.otf");
+  font-family: "littleshit"
+}
+@font-face {
+  src:url("Quicksand_Book.otf");
+  font-family: "littleshit"
+  font-weight: bold;
+}
+p { font-family: "littleshit"
+
+}
+a {
+  color: rgba(255, 0, 0, 0.5);
+  text-decoration: none;
+}
+p:hover {
+  color: rgba(70, 10, 30, 0.5);
+  cursor: pointer;
+}
+a:hover {
+  color:"pink"
+  text-decoration: underline;
+  cursor: progress;
+}
+
+a:visited {
+  color:"violet"
+}
+
+a:active {
+  color: "magenta"
+}
+
+a:focus {
+  color:"red"
+}
